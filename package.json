@@ -1,0 +1,9 @@
+{
+  "name": "tw2021.8.20S",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
