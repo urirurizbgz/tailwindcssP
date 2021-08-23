@@ -17,7 +17,7 @@
 	<body class="font-Poppins">
 		<!-- header -->
 		<header>
-			<nav class="container flex items-start py-4 mt-4 sm:mt-12">
+			<nav class="container flex items-center py-4 mt-4 sm:mt-12">
 				<div class="py-1"><img src="./imgs/logo-bookmark.svg" alt="" /></div>
 				<ul
 					class="
@@ -48,36 +48,272 @@
 			</nav>
 		</header>
 		<!-- hero -->
-		<section class="relotive">
+		<section class="relative">
 			<div
 				class="
 					container
 					flex flex-col-reverse
 					lg:flex-row
 					items-center
-					justify-center
 					gap-12
 					mt-14
 					lg:mt-28
 				"
+			>
+				<!-- content -->
+				<div class="flex flex-1 flex-col items-center lg:items-start">
+					<h2
+						class="
+							to-bookmark-blue
+							text-3xl
+							md:text-4xl
+							lg:text-5xl
+							text-center
+							lg:text-left
+							mb-6
+						"
+					>
+						A Simple bookmark Manager
+					</h2>
+					<p class="text-bookmark-gray text-lg text-center lg:text-left mb-6">
+						A cleen and simple interface to organize your favirote websites.
+						Open a new browser tab and see your sites load instantly. Try it for
+						free.
+					</p>
+					<div>
+						<button
+							type="button"
+							class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+						>
+							Get it on Chrome
+						</button>
+						<button
+							type="button"
+							class="btn btn-white hover:bg-bookmark-purple hover:text-white"
+						>
+							Get it on Firefox
+						</button>
+					</div>
+				</div>
+				<!-- image -->
+				<div class="flex justify-center flex-1 md:mb-16 lg:mb-0 z-10">
+					<img
+						src="./imgs/hero-bg.png"
+						alt=""
+						class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+					/>
+				</div>
+			</div>
+			<!-- rounded rectangle -->
+			<div
+				class="
+					absolute
+					hidden
+					md:block
+					overflow-hidden
+					bg-bookmark-purple
+					rounded-l-full
+					h-80
+					w-2/4
+					top-32
+					right-0
+					lg:-bottom-28 lg:-right-36
+				"
 			></div>
-			<!-- content -->
-			<div class="flex flex-1 flex-col items-center lg:items-start">
-				<h2
+		</section>
+		<!-- features -->
+		<section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+			<!-- heading -->
+			<div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+				<h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+				<p class="text-center text-bookmark-gray mt-4">
+					Our aim is to make it quick and easy for you to acsess your favorite
+					websites. Your bookmarks sync between your devices so you can access
+					them on the go
+				</p>
+			</div>
+			<!-- features #1 -->
+			<div class="relative mt-20 lg:mt-24">
+				<div
 					class="
-						to-bookmark-blue
-						text-3xl
-						md:text-4xl
-						lg:text-5xl
-						text-center
-						lg:text-left
-						mb-6
+						container
+						flex flex-col
+						lg:flex-row
+						items-center
+						justify-center
+						gap-x-24
 					"
 				>
-					A Simple bookmark Manager
-				</h2>
-				<p class="to-bookmark-gray text-lg text-center lg:text-left mb-6"></p>
-				<div><button></button> <button></button></div>
+					<!-- image -->
+					<div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+						<img
+							src="./imgs/illustration-features-tab-1.png"
+							alt=""
+							class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+						/>
+					</div>
+					<!-- conent -->
+					<div class="flex flex-1 flex-col items-center lg:items-start">
+						<h1 class="text-3xl to-bookmark-blue">Bookmark in one click</h1>
+						<p
+							class="
+								text-bookmark-gray
+								my-4
+								text-center
+								lg:text-left
+								sm:w-3/4
+								lg:w-full
+							"
+						>
+							Organaize your bookmarks however you like. Our simple
+							drag-and-drop interface gives you complete control over hou you
+							manage your fovorite sites.
+						</p>
+						<button
+							type="button"
+							class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+						>
+							More Info
+						</button>
+					</div>
+				</div>
+				<!-- rounded rectangle -->
+				<div
+					class="
+						hidden
+						lg:block
+						overflow-hidden
+						bg-bookmark-purple
+						rounded-r-full
+						absolute
+						h-80
+						w-2/4
+						-bottom-24
+						-left-36
+					"
+				></div>
+			</div>
+			<!-- features #2 -->
+			<div class="relative mt-20 lg:mt-52">
+				<div
+					class="
+						container
+						flex flex-col
+						lg:flex-row-reverse
+						items-center
+						justify-center
+						gap-x-24
+					"
+				>
+					<!-- image -->
+					<div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+						<img
+							src="./imgs/illustration-features-tab-2.png"
+							alt=""
+							class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+						/>
+					</div>
+					<!-- conent -->
+					<div class="flex flex-1 flex-col items-center lg:items-start">
+						<h1 class="text-3xl to-bookmark-blue">Bookmark in one click</h1>
+						<p
+							class="
+								text-bookmark-gray
+								my-4
+								text-center
+								lg:text-left
+								sm:w-3/4
+								lg:w-full
+							"
+						>
+							Organaize your bookmarks however you like. Our simple
+							drag-and-drop interface gives you complete control over hou you
+							manage your fovorite sites.
+						</p>
+						<button
+							type="button"
+							class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+						>
+							More Info
+						</button>
+					</div>
+				</div>
+				<!-- rounded rectangle -->
+				<div
+					class="
+						hidden
+						lg:block
+						overflow-hidden
+						bg-bookmark-purple
+						rounded-l-full
+						absolute
+						h-80
+						w-2/4
+						-bottom-24
+						-right-36
+					"
+				></div>
+			</div>
+			<!-- features #3 -->
+			<div class="relative mt-20 lg:mt-52">
+				<div
+					class="
+						container
+						flex flex-col
+						lg:flex-row
+						items-center
+						justify-center
+						gap-x-24
+					"
+				>
+					<!-- image -->
+					<div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+						<img
+							src="./imgs/illustration-features-tab-3.png"
+							alt=""
+							class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+						/>
+					</div>
+					<!-- conent -->
+					<div class="flex flex-1 flex-col items-center lg:items-start">
+						<h1 class="text-3xl to-bookmark-blue">Bookmark in one click</h1>
+						<p
+							class="
+								text-bookmark-gray
+								my-4
+								text-center
+								lg:text-left
+								sm:w-3/4
+								lg:w-full
+							"
+						>
+							Organaize your bookmarks however you like. Our simple
+							drag-and-drop interface gives you complete control over hou you
+							manage your fovorite sites.
+						</p>
+						<button
+							type="button"
+							class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+						>
+							More Info
+						</button>
+					</div>
+				</div>
+				<!-- rounded rectangle -->
+				<div
+					class="
+						hidden
+						lg:block
+						overflow-hidden
+						bg-bookmark-purple
+						rounded-r-full
+						absolute
+						h-80
+						w-2/4
+						-bottom-24
+						-left-36
+					"
+				></div>
 			</div>
 		</section>
 	</body>
