@@ -1,9 +1,12 @@
 {
-  "name": "tw2021.8.20S",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "tailwindcss": "^2.2.7"
-  }
+	"name": "tw2021.8.20S",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "tailwind build -i src/style.css -o dist/style.css -w"
+	},
+	"devDependencies": {
+		"tailwindcss": "^2.2.7"
+	}
 }
