@@ -13,3 +13,6 @@
 .btn-white {
 	@apply bg-bookmark-white;
 }
+.btn-red {
+	@apply bg-bookmark-red text-white;
+}
